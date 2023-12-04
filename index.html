@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="LMS Website">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Varshith">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+    <link rel="stylesheet" href="online-learning-management-website.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="d-flex flex-row">
+        <div>
+            <h1 class="heading"><strong class="firstword-color">Learn</strong> <strong class="secondword-color">Skill</strong></h1>
+        </div>
+        <div class="side-heading d-flex flex-row">
+            <div>
+                <h2 class="firstside-heading" onclick="courses()">Courses</h2>
+            </div>
+        </div>
+            <div>
+                <button class="signup-container" onclick="signup()">Sign up</button>
+            </div>
+    </div>
+    <div class="backgroundimage-container">
+        <h1 class="backgroundheading-container"><strong class="firstword-color">Learn</strong> <strong class="secondword-color">Skill</strong></h1>
+        <p class="backgrounddescription-container">Welcome to a world of endless possibilities! Learn Skill. It is a personalized gateway to a realm of knowledge, skill enhancement, and professional growth. Empower your learning journey with Learn Skill - the gateway to limitless knowledge and skill development!</p>
+    </div>
+    <div class="card1">
+        <h1 class="card1-heading">Invest time in your professional goals with Learn Skill</h1>
+        <p class="card1-para">Get unlimited access to courses and Professional Certificates on Learn Skill, taught by top instructors</p>
+    </div>
+    <div class="d-flex flex-row">
+        <div class="icon1-container">
+            <img src="https://thumbs.dreamstime.com/b/online-learning-icon-beautiful-meticulously-designed-online-learning-icon-perfect-use-designing-developing-websites-112019936.jpg" width="100px" height="100px">
+            <h3 class="icon1">Learn Anything</h3>
+            <p class="icon-description">learn anything you want</p>
+        </div>
+        <div class="icon1-container">
+            <img src="https://as1.ftcdn.net/v2/jpg/02/24/59/62/1000_F_224596227_fuJvU53olmEvgxW1cennBv5iT9QaK1rp.jpg" width="100px" height="100px">
+            <h3 class="icon1">Online Learning</h3>
+            <p class="icon-description">You can learn remotely</p>
+        </div>
+        <div class="icon1-container">
+            <img src="https://cdn.vectorstock.com/i/preview-1x/57/83/flexible-learning-environments-blue-gradient-vector-42305783.jpg" width="100px" height="100px">
+            <h3 class="icon1">Flexible-learning</h3>
+            <p class="icon-description">Learn at your own pace, move between multiple courses, or switch to a different course</p>
+        </div>
+    </div>
+    <hr class="my-4 bg-dark hr-container">
+    <script>
+        function signup(){
+            var newpageurl="signup.html"
+            var newwindow=window.open("signup.html","_blank")
+        }
+        function courses(){
+            var newpageurl="course.html"
+            var newwindow=window.open("course.html","_blank")
+        }
+    </script>
+</body>
+</html>
